@@ -1,0 +1,43 @@
+# ロックファイル（数万トークン消費の元凶）
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# 生成されたファイル
+dist/
+build/
+.next/
+out/
+coverage/
+
+# 依存関係
+node_modules/
+
+# 大きなデータファイル
+*.sql
+*.csv
+*.json.bak
+fixtures/large-*.json
+
+# バイナリ・アセット
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+
+# IDE・エディタ
+.idea/
+.vscode/settings.json
+
+# 環境変数（セキュリティ）
+.env*
+!.env.example
+
+# テスト結果
+__snapshots__/
+*.snap
